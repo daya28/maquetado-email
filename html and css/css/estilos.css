@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+/*
+header{
+	background: white;
+    width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+}*/
+
+.cajaconlogo{
+    width: 100%; 
+    text-align: center; 
+    padding: 0;
+}
+
+.uno{
+    width: 50%;
+    display:block; 
+    margin: 1.5% 3%;
+}
+
+.imagen{
+    width:100%;
+    padding: 10px; 
+    display: center;
+}
+
+body{
+    width: 600px;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.todo{
+    text-align: center;
+}
+
+/************************ INFORMACION INFERIOR *******************/
+
+.info{
+    background-color: white;
+    color: #34495e; 
+    margin: 4% 10% 2%; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    color: #e67e22; 
+    margin: 0 0 7px;
+}
+
+p{
+    margin: 2px; 
+    font-size: 15px;
+}
+
+ul{
+    font-size: 15px;  
+    margin: 10px 0;
+}
+
+li{
+    list-style:none;
+    text-align: center;
+}
+
+.imagenes{
+    width: 100%;
+    margin:20px 0; 
+    display: inline-block;
+    text-align: center;
+}
+
+.izq{
+    padding: 0; 
+    width: 200px; 
+    margin: 5px;
+}
+
+.der{
+    padding: 0; 
+    width: 200px; 
+    margin: 5px;
+}
+
+.enlace{
+    width: 100%; 
+    text-align: center;
+}
+
+.bt-menu{
+    display:block;
+    padding:20px;
+    background:grey;
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.firma{
+    color: grey; 
+    font-size: 12px; 
+    text-align: center;
+    margin: 30px 0 0;
+}
